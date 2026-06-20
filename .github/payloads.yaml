@@ -618,6 +618,23 @@ payloads:
       type: ""
       url: ""
 
+  # --- PS5 Linux Loader: Linux bootloader payload ---
+  - id: ps5-linux-loader
+    displayTitle: PS5 Linux Loader
+    description: Linux bootloader payload for supported PS5 Phat consoles
+    authors:
+      - TheOfficialFloW
+      - c0w
+    projectUrl: https://github.com/ps5-linux/ps5-linux-loader
+    sourceType: github-release
+    sourceRepo: ps5-linux/ps5-linux-loader
+    sourcePattern: ps5-linux-loader.elf
+    toPort: 9021
+    supportedFirmwares: ["3.", "4.", "5.", "6."]
+    license:
+      type: "GPL-3.0"
+      url: "https://github.com/ps5-linux/ps5-linux-loader/blob/main/LICENSE"
+
   # --- VoidShell: PS5 Homebrew Dashboard ---
   # Ko-fi exclusive distribution (orphaned - no GitHub releases)
   # This payload requires manual version management.
