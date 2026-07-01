@@ -15,6 +15,20 @@
   "toPort": 9021,
   "versions": [
     {
+      "version": "2.3",
+      "fileName": "ps5-linux-loader.elf",
+      "filePath": "payloads/ps5-linux-loader/2.3/ps5-linux-loader.elf",
+      "downloadUrl": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.3/ps5-linux-loader.elf",
+      "hash": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5",
+      "fileSize": 179112,
+      "releaseDate": "2026-07-01",
+      "isDefault": true,
+      "isPreRelease": false,
+      "changelog": [
+        "Added 6.50 and 7.20 support"
+      ]
+    },
+    {
       "version": "2.2",
       "fileName": "ps5-linux-loader.elf",
       "filePath": "payloads/ps5-linux-loader/2.2/ps5-linux-loader.elf",
@@ -22,7 +36,7 @@
       "hash": "ec64491c0c8f559244709fbd6a1d6d0c43a402e40502c40ddccbd1722f376338",
       "fileSize": 178288,
       "releaseDate": "2026-06-30",
-      "isDefault": true,
+      "isDefault": false,
       "isPreRelease": false,
       "changelog": [
         "Added 7.61 support"
